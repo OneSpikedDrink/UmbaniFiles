@@ -217,3 +217,8 @@ form {
     background-color: #396097;
     color: white;
 }
+
+
+#ctl00_ContentPlaceHolder1_ASPxGridView1{
+    margin-top:1rem;
+}
