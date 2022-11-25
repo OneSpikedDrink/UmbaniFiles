@@ -1,0 +1,34 @@
+﻿.loading-in-progress::before {
+    content: '';
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-color: white;
+    z-index: 100000;
+}
+
+.loading-in-progress::after {
+    content: '';
+    position: fixed;
+    width: 100px;
+    height: 100px;
+    background-image: url('https://www.svgrepo.com/show/315795/spinner.svg');
+    animation: 0.5s infinite forwards spin-animation;
+    z-index: 100000;
+    background-repeat: no-repeat;
+    background-size: 100px;
+    top: calc(50% - 50px);
+    left: calc(50% - 50px);
+}
+
+@keyframes spin-animation {
+    0% {
+        transform: rotate(0deg)
+    }
+
+    100% {
+        transform: rotate(360deg)
+    }
+}

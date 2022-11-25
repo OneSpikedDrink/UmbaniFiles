@@ -10,5 +10,11 @@
     "inputFiles": [
       "HelpDesk/CSS/helpdeskUI.css"
     ]
+  },
+  {
+    "outputFileName": "HelpDesk/CSS/helpdeskLoader.min.css",
+    "inputFiles": [
+      "HelpDesk/CSS/helpdeskLoader.css"
+    ]
   }
 ]
