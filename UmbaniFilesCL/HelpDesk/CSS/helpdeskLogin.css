@@ -3,9 +3,9 @@
     margin: auto;
 }
 
-    #ParentDiv > div:nth-child(2) > div:nth-child(1) > div:nth-child(2){
-        float:unset;
-        width:unset;
+    #ParentDiv > div:nth-child(2) > div:nth-child(1) > div:nth-child(2) {
+        float: unset !important;
+        width: unset !important;
     }
 
 #ParentDiv > div:nth-child(2) > div:nth-child(2){
@@ -58,4 +58,12 @@
     font-size: 1em;
     padding: 5px;
     text-align: center;
+}
+
+#ParentDiv > div:nth-child(2) > div:nth-child(1) {
+    box-sizing: border-box;
+    width: 50%;
+    float: unset;
+    padding-right: unset;
+    margin: auto;
 }
