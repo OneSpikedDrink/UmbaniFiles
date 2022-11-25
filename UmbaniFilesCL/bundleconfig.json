@@ -1,8 +1,8 @@
 [
   {
-    "outputFileName": "NewFolder/helpdeskUI.min.js",
+    "outputFileName": "HelpDesk/JS/helpdeskUI.min.js",
     "inputFiles": [
-      "NewFolder/helpdeskUI.js"
+      "HelpDesk/JS/helpdeskUI.js"
     ]
   }
 ]
