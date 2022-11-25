@@ -4,5 +4,11 @@
     "inputFiles": [
       "HelpDesk/JS/helpdeskUI.js"
     ]
+  },
+  {
+    "outputFileName": "HelpDesk/CSS/helpdeskUI.min.css",
+    "inputFiles": [
+      "HelpDesk/CSS/helpdeskUI.css"
+    ]
   }
 ]
