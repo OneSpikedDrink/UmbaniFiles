@@ -1,5 +1,10 @@
 ﻿@import url(//db.onlinewebfonts.com/c/1c45e28f8e86cc89876f003b953cc3e9?family=SF+Pro+Text);
 
+
+:root {
+    --row-hover-color: #566375;
+}
+
 * {
     font-family: "SF Pro Text" !important;
     font-weight: 400 !important;
@@ -7,4 +12,8 @@
 
 #G0mg > table:nth-child(1) {
     font-size: 0.8rem !important;
+}
+
+#TIWDBADVWEBGRID1_ tr:hover {
+    background-color: var(--row-hover-color);
 }
