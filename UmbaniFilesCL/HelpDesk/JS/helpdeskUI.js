@@ -145,3 +145,29 @@ function importJquery() {
 }
 
 importJquery();
+
+window.onscroll = function () { myFunction() };
+
+function myFunction() {
+    var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+    var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+    var scrolled = (winScroll / height) * 100;
+    document.getElementById("myBar").style.width = scrolled + "%";
+}
+
+function addScrollIndicator() {
+
+    if (isLoginPage) return;
+
+    let cont = document.createElement('div');
+    let bar = document.createElement('div');
+
+    cont.setAttribute('class', 'progress-container');
+    bar.setAttribute('class', 'progress-bar');
+    bar.setAttribute('id', 'myBar');
+
+    cont.appendChild(bar);
+
+    let body = document.getElementsByTagName('body')[0];
+    body.appendChild(cont);
+}

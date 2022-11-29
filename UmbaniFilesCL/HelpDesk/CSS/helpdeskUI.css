@@ -231,3 +231,18 @@ form {
 #ctl00_ContentPlaceHolder1_ASPxGridView1{
     margin-top:1rem;
 }
+
+.progress-container {
+    width: 100%;
+    height: 5px;
+    background: #ccc;
+    position: fixed;
+    top: 47px;
+    left: 0;
+}
+
+.progress-bar {
+    height: 5px;
+    background: #59909d;
+    width: 0%;
+}
