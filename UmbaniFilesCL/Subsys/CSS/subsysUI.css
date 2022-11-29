@@ -19,7 +19,7 @@
 }
 
 
-.input[type=button] {
+input[type="button"] {
     padding: 0.6em 2em;
     border: none;
     outline: none;
@@ -34,7 +34,7 @@
     touch-action: manipulation;
 }
 
-    .input[type=button]:before {
+    input[type="button"]:before {
         content: "";
         background: linear-gradient( 45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000 );
         position: absolute;
@@ -65,7 +65,7 @@
     }
 }
 
-.input[type=button]:after {
+input[type="button"]:after {
     z-index: -1;
     content: "";
     position: absolute;
