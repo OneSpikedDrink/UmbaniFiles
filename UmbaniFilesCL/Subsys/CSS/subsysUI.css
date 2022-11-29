@@ -4,3 +4,7 @@
     font-family: "SF Pro Text" !important;
     font-weight: 400 !important;
 }
+
+#G0mg > table:nth-child(1) {
+    font-size: 0.8rem !important;
+}
