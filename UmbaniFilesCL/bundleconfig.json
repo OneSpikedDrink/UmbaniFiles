@@ -22,5 +22,11 @@
     "inputFiles": [
       "HelpDesk/CSS/helpdeskLogin.css"
     ]
+  },
+  {
+    "outputFileName": "Subsys/CSS/subsysUI.min.css",
+    "inputFiles": [
+      "Subsys/CSS/subsysUI.css"
+    ]
   }
 ]
